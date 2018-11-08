@@ -1,0 +1,192 @@
+body{	
+ 	margin: 0px;
+ 	padding: 0px;
+ 	background: url(../IMG/bg.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+	/*background-repeat: no-repeat;*/
+} 
+header{
+  margin-top: -40px;
+}
+.imgCKTG{
+  margin-top:15px;
+  margin-left: 22px;
+}
+.header-menu{
+  margin-top: -20px;
+  font-weight: bold;
+}
+.dropdown-menu{
+    border-top: 3px solid red;
+    background: white;
+    color :red; 
+    /*line-height: 30px;*/
+    /*height: 30px;*/
+}
+.dropdown-menu li{
+  font-weight: bold;
+  /*background-color: cyan;*/
+  height: 40px;
+}
+.dropdown-menu li a{
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.dropdown:hover ul{
+    display: block;
+    color: red;
+
+}
+.dropdown:visited ul{
+    background-color: black;
+    color: red;    
+}
+.dropdown-menu li a:hover{
+    color: red;
+}
+.container-fluid{
+	position: relative;
+}
+.logo-world-championship{
+  margin-top: 30px;
+  border-bottom: 2px solid red;
+}
+
+#worldChampionship{
+  margin-top: 10px;
+}
+
+#imgFnatic{
+  margin-top: -40px;
+  width : 660px ;
+  height : 440px ; 
+  width: 100%;
+  margin-left: 0px;
+}
+#imgSion{
+  float: left;
+  margin-top: -40px;
+  margin-left: 0px;
+  width: 600px;
+  height: 220px;
+}
+#imgUzi{
+  padding-top: 20px;
+  width: 270px;
+  height: 220px;
+}
+#imgOngnaoday{
+  padding-top: 20px;
+  width: 270px;
+  height: 220px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0;
+  color: white; 
+  width: 100%;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 7px;
+  text-align: left;
+
+}
+.esport-news{
+  list-style-type: square;
+  color: red;
+  font-size: 20px;
+
+}
+.menu-esport-news {
+  color: black;
+  font-size: 14px;
+}
+
+
+.topnav-left {
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #FF8C00;
+}
+
+.menu-news {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 6px 1px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.menu-news{
+  margin-right: 20px;
+  padding-bottom: 0px;
+}
+
+.menu-news:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.active{
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 2;
+  background-color: #FF8C00;
+  color: white;
+  text-align: center;
+}
+.active:hover{
+  opacity: 0.5;
+  text-decoration: none;
+  color: white;
+}
+.active: visited{
+  text-decoration: none;
+  color: white;
+}
+
+.topnav-right {
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #DC143C;
+}
+
+.hot-news{
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 2;
+  background-color: #DC143C;
+  color: white;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  height: 120px;
+  background: cyan;
+}
+.copy-right{
+  padding: 20px 10px;
+}
+.menu-main-menu-1{
+  overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+}
+.menu-footer{
+  color: #f1f1f1;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 0px;
+}
