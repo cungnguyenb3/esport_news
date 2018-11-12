@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+		<title>POST</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./CSS/bootstrap.min.css"">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">	
+			</div> 
+
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<form action="" method="POST" role="form">
+					<legend>POST</legend>
+				
+
+					<div class="form-group">
+						<label for="">title</label>
+						<input type="text" class="form-control" id="title" placeholder="Input field">
+					</div>
+					<div class="form-group">
+						<label for="">image</label>
+						<input id="image" type="file" name="">
+					</div>					
+					<div class="form-group">
+						<label for="">in</label>
+						<input id="zz" type="text" name="">
+					</div>				
+					<button type="button" class="btn btn-danger" style="margin-left: 150px;" 
+					onclick="getImage()">ADD</button>
+					
+				</form>
+			</div>
+			<div class="col-xs-4 col-4 col-md-4 col-lg-4">	
+			</div>
+		</div>
+		<! -->
+	</div>
+	
+	<script type="text/javascript">
+		// var image={
+		// 	title:"",
+		// 	way:""
+		// };
+		var post=[];
+		function getImage () {
+			var title=document.getElementById('title').value;
+			var way=document.getElementById('image').value;
+			post.push(title);
+			post.push(way);
+			document.getElementById("zz").value= post; 
+			// var hinh=new Object();
+			// hinh.title=document.getElementById('title').value;
+			// hinh.way=document.getElementById('image').value;
+			
+			// post.push(hinh);
+			// var text='';
+			// for(var i in post){
+			// 	text+=post[i];
+			// }
+			// document.getElementById("zz").innerHTML = text; 
+		}
+		export default getImage() {}
+	</script>
+</body>
+</html>
